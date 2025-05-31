@@ -10,6 +10,15 @@ export default {
   theme: {
     extend: {
       colors: {
+        // WORKBOX Brand Colors
+        'workbox': {
+          'background': '#d6f291',  // Light green (main background)
+          'primary': '#a4d61b',     // Bright green (button, accent)
+          'secondary': '#e3f3b0',   // Pale green (sections)
+          'text': '#2e3527',        // Dark green (text)
+          'surface': '#f8fbf1',     // Very light green (cards)
+          'muted': '#8a8d85',       // Gray-green (muted text)
+        },
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
